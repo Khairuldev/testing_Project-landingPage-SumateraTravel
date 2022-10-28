@@ -1,0 +1,47 @@
+.paket {
+  height: auto;
+  width: 100%;
+  margin: none;
+  padding: none;
+  justify-content: center;
+}
+
+.colom {
+  height: auto;
+  width: 100%;
+  left: 0;
+  right: 0;
+  margin: 3px;
+  padding-top: 10px;
+  background-position: 0% 0%;
+  border: 1px solid #f1f1f1;
+  position: relative;
+  transform: none;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.colom:hover {
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 0px 18px 0px;
+  transition: background 0.3s ease 0s, border 0.3s ease 0s, border-radius 0.3s ease 0s, box-shadow 0.3s ease 0s;
+}
+
+.kategori {
+  justify-content: center;
+  margin: 25px;
+  display: flex;
+  justify-items: center;
+  text-align: center;
+  align-items: center;
+}
+
+.kategori button:hover {
+  background-color: green;
+}
+
+@media (min-width: 414px) {
+  .btn {
+    font-size: auto;
+    width: auto;
+  }
+}

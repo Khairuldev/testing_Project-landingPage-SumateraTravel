@@ -1,0 +1,196 @@
+.contentemail {
+  height: auto;
+  margin: auto;
+  width: 100%;
+}
+
+.gambar {
+  background-image: url(../../Assets/Banner/Banner.jpg);
+  border-radius: 5px;
+  background-color: #ffffff;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  color: #212529;
+  justify-content: center;
+  align-items: center;
+  background-position: center;
+  margin: auto;
+  border: 2px solid black;
+  width: 1125px;
+  padding: 25px;
+  height: 100%;
+  background-size: cover;
+}
+
+@media screen and (max-width: 1024px) {
+  .gambar {
+    left: 50%;
+    width: auto;
+    height: auto;
+    margin-left: -512; /*50% */
+  }
+}
+
+@media screen and (max-width: 1145px) {
+  .judul {
+    width: auto;
+  }
+}
+
+@media screen and (max-width: 1145px) {
+  .inputEmail {
+    width: auto;
+  }
+}
+
+@media screen and (max-width: 1145px) {
+  .email {
+    width: auto;
+  }
+}
+
+@media screen and (max-width: 1145px) {
+  .button {
+    width: auto;
+  }
+}
+
+@media screen and (max-width: 220px) {
+  .judul h3 {
+    width: auto;
+    text-align: left;
+    letter-spacing: 0.95px;
+    font-size: 2.5em;
+    text-shadow: 0 3px 6px #00000029;
+  }
+}
+
+@media screen and (max-width: 276px) {
+  .judul h3 {
+    margin: 10px 0;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .email-subscribe-section .container .content .subscribe-form .subscribe-form-content .row .form-element input {
+    opacity: 1;
+    text-align: left !important;
+  }
+}
+@media screen and (min-width: 276px) {
+  .email-subscribe-section .container .content .subscribe-form .subscribe-form-content .row .form-element input {
+    opacity: 0.7;
+    text-align: center !important;
+  }
+}
+
+@media screen and (min-width: 276px) {
+  .email-subscribe-section .container .content .subscribe-form .subscribe-form-content button,
+  .email-subscribe-section .container .content .subscribe-form .subscribe-form-content input,
+  .email-subscribe-section .container .content .subscribe-form .subscribe-form-content h3 {
+    margin: 10px 0;
+  }
+}
+
+.email-subscribe-section .container .content .subscribe-form .subscribe-form-content button,
+.email-subscribe-section .container .content .subscribe-form .subscribe-form-content input,
+.email-subscribe-section .container .content .subscribe-form .subscribe-form-content h3 {
+  margin: 15px 0;
+}
+.email-subscribe-section .container .content .subscribe-form .subscribe-form-content input {
+  height: 33pt !important;
+  border-radius: 7pt !important;
+  border: 0;
+}
+
+.judul1 {
+  margin: auto;
+  padding: 2px;
+  text-align: center;
+  display: flex;
+  float: right;
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+.judul1 h3 {
+  text-align: center;
+  letter-spacing: 0.95px;
+  font-size: 2.5em;
+  text-shadow: 0 3px 6px #00000029;
+  margin-left: auto;
+  display: block;
+  font-weight: bold;
+  margin: auto;
+  width: auto;
+}
+
+/* .content {
+  height: auto;
+} */
+
+.inputEmail {
+  height: auto;
+  margin: auto;
+  width: 100%;
+  padding-bottom: 25px;
+}
+
+.email {
+  padding: 2px;
+  text-align: center;
+  display: inline-block;
+  margin: auto;
+}
+
+input {
+  width: auto;
+  height: 45px;
+  margin: auto;
+  float: left;
+}
+
+.row {
+  justify-content: center;
+}
+
+/* .button {
+  text-align: center;
+  justify-content: center;
+  margin: auto;
+  width: auto;
+  position: relative;
+  font-size: 10px;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: width.5s, border-radius 0.5s;
+} */
+
+/* .button *{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  transition: opacity .25s;
+}
+
+.icon{
+  opacity: 0;
+}
+
+.button:focus{
+  width: 30px;
+  background-color: #44c08a;
+  border-radius: 50%;
+}
+
+.button:focus .text{
+  opacity: 0;
+}
+
+.button:focus .icon{
+  opacity: 1;
+  transition-delay: .5s;
+} */

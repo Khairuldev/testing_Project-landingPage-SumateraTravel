@@ -1,0 +1,136 @@
+.BodyContent {
+  height: auto;
+}
+
+.continer {
+  height: auto;
+}
+
+.Title {
+  font-size: 3rem;
+  font-weight: 555;
+  line-height: 1;
+  text-shadow: 2px 2px black;
+  margin-bottom: 15px;
+  height: auto;
+  color: black;
+  text-align: center;
+  margin-top: 25px;
+}
+
+.contentdeskripsi {
+  height: auto;
+  width: auto;
+  margin: auto;
+  padding: 15px;
+  justify-content: center;
+  margin-top: 10px;
+  display: flex;
+}
+
+.elementor-heading-title {
+  /* box */
+  width: 480px;
+  height: auto;
+  display: flex;
+  margin: auto;
+  justify-content: center;
+  padding-top: 10px;
+  text-shadow: 2px 2px wheat;
+
+  /* Font & Text */
+  font-family: Poppins, sans-serif;
+  font-size: bold;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 600;
+  letter-spacing: normal;
+  line-height: 35px;
+  text-decoration: none solid rgb(58, 58, 58);
+  text-align: center;
+  text-indent: 0px;
+  text-transform: none;
+  vertical-align: baseline;
+  white-space: normal;
+  word-spacing: 0px;
+
+  /* color&bacground */
+  background-color: #ffffff;
+  background-position: 0% 0%;
+  color: #3a3a3a;
+
+  /* Box */
+  height: auto;
+  width: auto;
+  border: 0px none rgb(58, 58, 58);
+  border-top: 0px none rgb(58, 58, 58);
+  border-right: 0px none rgb(58, 58, 58);
+  border-bottom: 0px none rgb(58, 58, 58);
+  border-left: 0px none rgb(58, 58, 58);
+  margin: 0px;
+  padding: 0px;
+  max-height: none;
+  min-height: 0px;
+  max-width: none;
+  min-width: 0px;
+
+  /* Positioning */
+  position: static;
+  clear: both;
+}
+
+.elementor-heading-content {
+  width: auto;
+  height: auto;
+  display: flex;
+  margin: auto;
+  justify-content: center;
+  padding-top: 10px;
+  margin-top: 5px;
+}
+/* ------- */
+
+.judulkalender {
+  height: auto;
+  margin-left: 45px;
+}
+
+.kalendercontent {
+  height: auto;
+}
+
+.ContentDestinasi {
+  margin-top: 30px;
+}
+
+.destinasi {
+  height: auto;
+  width: 100%;
+}
+
+.destinasi h2 {
+  text-align: center;
+  margin-bottom: 5px;
+  font-style: italic;
+}
+
+.destinasi p {
+  text-align: center;
+  margin-bottom: 25px;
+  font-style: italic;
+}
+
+.emailContent {
+  height: auto;
+  width: 100%;
+  justify-content: center;
+  margin: 3px;
+  padding: 5px;
+}
+
+.dspilihan {
+  height: auto;
+  width: 100%;
+}
+
+

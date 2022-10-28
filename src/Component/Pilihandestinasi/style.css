@@ -1,0 +1,40 @@
+.paket {
+  height: auto;
+  width: 100%;
+  margin: none;
+  padding: none;
+  justify-content: center;
+}
+
+.paket card {
+  height: auto;
+  width: 100%;
+  left: 0;
+  right: 0;
+  margin: 3px;
+  padding-top: 10px;
+  background-position: 0% 0%;
+  border: 1px solid #f1f1f1;
+  position: relative;
+  transform: none;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.paket card:hover {
+  transition: background 0.3s ease 0s, border 0.3s ease 0s, border-radius 0.3s ease 0s, box-shadow 0.3s ease 0s;
+}
+
+.judul {
+  width: auto;
+  height: auto;
+  display: flex;
+  margin-top: 25px;
+}
+.judul h2 {
+  text-align: center;
+  margin-bottom: 5px;
+  font-style: italic;
+  justify-content: center;
+  margin: auto;
+}
