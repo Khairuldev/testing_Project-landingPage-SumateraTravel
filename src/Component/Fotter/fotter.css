@@ -1,0 +1,74 @@
+.fotter {
+  width: 100%;
+  height: auto;
+  margin: auto;
+  background-color: antiquewhite;
+  /* display: grid; */
+}
+
+.contact {
+  width: 100%;
+  height: auto;
+  background-color: antiquewhite;
+
+  /* display: inline-block; */
+  box-sizing: border-box;
+  justify-content: center;
+}
+
+.contact ul li {
+  display: block;
+  font-family: -apple-system, "system-ui", "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+  font-size: 15px;
+  line-height: 27.8571px;
+  text-decoration: none solid rgb(75, 79, 88);
+  word-spacing: 0px;
+  color: #4b4f58;
+}
+
+.mainmenu1 {
+  width: 100%;
+  height: auto;
+  background-color: antiquewhite;
+  /* display: inline-block; */
+  box-sizing: border-box;
+}
+
+.mainmenu1 ul li {
+  display: block;
+  font-family: -apple-system, "system-ui", "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+  font-size: 15px;
+  line-height: 27.8571px;
+  text-decoration: none solid rgb(75, 79, 88);
+  word-spacing: 0px;
+  color: #4b4f58;
+  padding: 5px;
+}
+
+.socialmedia {
+  width: 100%;
+  height: auto;
+  background-color: antiquewhite;
+  /* display: inline-block; */
+  box-sizing: border-box;
+}
+
+.socialmedia ul li {
+  font-family: -apple-system, "system-ui", "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+  font-size: 15px;
+  text-decoration: none solid rgb(75, 79, 88);
+  word-spacing: 0px;
+  color: #4b4f58;
+  padding: 5px;
+  display: block;
+}
+
+.socialmedia ul li p {
+  display: block;
+  font-family: -apple-system, "system-ui", "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+  font-size: 15px;
+  text-decoration: none solid rgb(75, 79, 88);
+  word-spacing: 0px;
+  line-height: 1.2ch;
+  color: #4b4f58;
+}

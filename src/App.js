@@ -9,6 +9,7 @@ import Destinasi_populer from "./Component/destinasi/Destipopuler";
 import "./style/App.css";
 import Destinasipilihan from "./Component/Pilihandestinasi/Destinasipilihan";
 import Transportasi from "./Component/Transport/Transport";
+import Fotter from "./Component/Fotter/Fotter";
 // import Containers from "./Component/Containerfile/Container";
 // import Kalender from "./Component/Kalender/Kalender";
 
@@ -84,6 +85,9 @@ function App() {
       {/* akhir stori petualangan */}
       <div>
         <Transportasi />
+      </div>
+      <div>
+        <Fotter />
       </div>
     </div>
   );
